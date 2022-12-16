@@ -1,0 +1,87 @@
+body {
+  background-image: url(./31180.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+/* section.contenedor{
+background-color: brown;
+} */
+
+div.elemento1 div{
+  float: left;
+
+}
+
+.elemento1{
+  background:linear-gradient(30deg,rgb(55, 161, 69)20%, rgb(209, 42, 36));
+  border: 5px solid aquamarine;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 30px;
+  width: 450px;
+  height: 500px;
+  position: absolute;
+  left: 100px;
+  top: 80px;
+}
+
+
+.elemento2 table {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background:linear-gradient(30deg,rgb(55, 161, 69)20%, rgb(209, 42, 36));
+  border: 3px solid aliceblue;
+  border-radius: 20px;
+  padding: 5px;
+  width: 400px;
+  position: absolute;
+  left: 700px;
+  bottom: 530px;
+}
+
+.elemento3 table{
+display: flex;
+margin: 0 auto;
+background:linear-gradient(30deg,rgb(55, 161, 69)20%, rgb(209, 42, 36));
+border: 4px solid rgb(218, 210, 210);
+border-radius: 20px;
+padding: 5px;
+width: 400px;
+position: absolute;
+left: 700px;
+bottom: 180px;
+}
+
+section h4 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-top: 20px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+}
+
+div label {
+  font-weight: 700;
+}
+
+tr td#intinerario{
+padding-bottom:40px;
+}
+
+div.elemento3 th{
+  padding-bottom: 20px;
+}
+
+tbody th {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 18px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+}
+
+tbody td{
+  font-weight: 700;
+}
